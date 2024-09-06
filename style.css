@@ -1,0 +1,69 @@
+/* Body styling */
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #AF151B;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Widget container styling */
+.widget-container {
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Label styling */
+.widget-label {
+    font-size: 16px; /* Matching font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #AF151B;
+}
+
+/* Dropdown select styling */
+.widget-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px; /* Font size for dropdown options */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    color: #AF151B;
+}
+
+/* Button styling */
+.widget-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #AF151B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Set font size to match dropdown options */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.widget-button:hover {
+    background-color: #E04A50; /* Lighter red on hover */
+}
+
+/* Result text styling */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #AF151B;
+    font-weight: bold;
+}
