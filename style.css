@@ -19,6 +19,14 @@ body {
 h1 {
     color: #b20000; /* Matches the red of libguides.thedtl.org */
     text-align: center;
+    font-size: 24px;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: -10px;
 }
 
 .dropdown-container {
@@ -41,4 +49,5 @@ select {
     color: #b20000; /* Matches the red of libguides.thedtl.org */
     margin-top: 20px;
 }
+
 
