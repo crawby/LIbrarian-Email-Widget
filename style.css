@@ -1,8 +1,8 @@
-/* Body styling */
+/* General Body Styling */
 body {
     font-family: 'Alegreya Sans', sans-serif;
-    background-color: #f4f4f4;
-    color: #AF151B;
+    background-color: #f4f4f4;  /* Light gray background */
+    color: #AF151B;  /* DTL's primary red color */
     margin: 0;
     padding: 20px;
     display: flex;
@@ -11,59 +11,69 @@ body {
     height: 100vh;
 }
 
-/* Widget container styling */
+/* Widget Container */
 .widget-container {
-    background-color: #ffffff;
-    border: 1px solid #d3d3d3;
-    border-radius: 8px;
+    background-color: #ffffff;  /* White background for the container */
+    border: 1px solid #d3d3d3;  /* Light gray border */
+    border-radius: 8px;  /* Rounded corners */
     padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow */
     max-width: 400px;
     width: 100%;
+    text-align: center;  /* Center the text */
 }
 
-/* Label styling */
+/* Label Styling */
 .widget-label {
-    font-size: 16px; /* Matching font size */
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
     display: block;
-    color: #AF151B;
+    color: #AF151B;  /* Red for the label text */
 }
 
-/* Dropdown select styling */
+/* Dropdown Select Styling */
 .widget-select {
     width: 100%;
     padding: 10px;
-    font-size: 16px; /* Font size for dropdown options */
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
-    background-color: #f9f9f9;
-    color: #AF151B;
+    background-color: #f9f9f9;  /* Light background */
+    color: #AF151B;  /* Red for text */
 }
 
-/* Button styling */
+/* Button Styling */
 .widget-button {
     width: 100%;
-    padding: 10px;
-    background-color: #AF151B;
+    padding: 12px;
+    background-color: #AF151B;  /* Bold red background for the button */
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px; /* Set font size to match dropdown options */
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .widget-button:hover {
-    background-color: #E04A50; /* Lighter red on hover */
+    background-color: #E04A50;  /* Slightly lighter red on hover */
 }
 
-/* Result text styling */
+/* Result Text Styling */
 .result {
     margin-top: 20px;
     font-size: 18px;
-    color: #AF151B;
+    color: #AF151B;  /* Red for result text */
     font-weight: bold;
 }
+
+/* Responsive Iframe */
+.responsive-iframe {
+    width: 100%;  /* Full width in its container */
+    height: 100%;  /* Adjust height dynamically */
+    border: none;  /* No border */
+}
+
