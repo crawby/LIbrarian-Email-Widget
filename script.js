@@ -1,15 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const showInfoButton = document.getElementById('showInfo');
-    const institutionSelect = document.getElementById('institution');
-    const emailResult = document.getElementById('emailResult');
+function displayContact() {
+    const dropdown = document.getElementById('institutionDropdown');
+    const contactInfo = document.getElementById('contactInfo');
+    const email = dropdown.value;
 
-    showInfoButton.addEventListener('click', function() {
-        const selectedEmail = institutionSelect.value;
+    if (email) {
+        contactInfo.textContent = `Contact email: ${email}`;
+    } else {
+        contactInfo.textContent = '';
+    }
+}
 
-        if (selectedEmail) {
-            emailResult.textContent = "Library Contact Email: " + selectedEmail;
-        } else {
-            emailResult.textContent = "Please select an institution.";
-        }
-    });
-});
